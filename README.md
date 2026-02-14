@@ -211,7 +211,7 @@ block 210
 
 ![](pic/03.png)
 
-# How `compute_corr_block7.py` Works
+# How `correction.py` Works
 
 This script estimates the **time delay** between two IQ channels (channel 0 as reference, channel 1 as measured) using **cross-correlation**, then converts the delay into **PPM** (parts per million) and **PPT** (parts per thousand) frequency corrections in the same way as the `delay_sync` module in the DAQ firmware.
 
@@ -321,7 +321,7 @@ These PPM values are in the same units sent to `rtlsdr_set_sample_freq_correctio
 From the `Firmware` directory (or adjust `BASE` in the script):
 
 ```bash
-python3 compute_corr_block7.py
+python3 correction.py
 ```
 
 Output: first the detailed report for block 7, then the table for all blocks with both ch0 and ch1 IQ files.

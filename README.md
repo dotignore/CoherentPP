@@ -282,8 +282,6 @@ Block   IQ Samples       PPM          PPM correction   Freq correction      PPT 
 
 ![Additional View](pic/03.png)
 
-![Final Result](pic/04.png)
-
 ---
 
 ## How to Use This Project
